@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CMMS</string>
+    <string name="value">-</string>
+    <string name="simpan">Simpan</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="engginer">Engginer</string>
+    <string name="shift">Shift</string>
+    <string name="no_mesin">No Mesin</string>
+    <string name="titikdua">\t\t:\t\t</string>
+    <string name="site">Site</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="jam">Jam</string>
+    <string name="masalah">Masalah</string>
+    <string name="perbaikan">Perbaikan</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_icon"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/problem"
+        android:enabled="true"
+        android:icon="@drawable/ic_searchproblem"
+        android:title="Problem"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/remminder"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_reminder"
+        android:title="Reminder"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/laporan"
+        android:enabled="true"
+        android:icon="@drawable/ic_report"
+        android:title="Laporan"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".List.L_Masalah">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggal"
+                app:fontFamily="@font/roboto_mono_medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titikdua"
+                app:fontFamily="@font/roboto_mono_medium" />
+            <TextView
+                android:id="@+id/tgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/value"
+                app:fontFamily="@font/roboto_mono_medium" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jam"
+                app:fontFamily="@font/roboto_mono_medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titikdua"
+                app:fontFamily="@font/roboto_mono_medium" />
+            <TextView
+                android:id="@+id/jam"
+                android:text="@string/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/roboto_mono" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_mesin"
+                app:fontFamily="@font/roboto_mono_medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titikdua"
+                app:fontFamily="@font/roboto_mono_medium" />
+            <TextView
+                android:id="@+id/nomesin"
+                android:text="@string/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/roboto_mono" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/site"
+                app:fontFamily="@font/roboto_mono_medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titikdua"
+                app:fontFamily="@font/roboto_mono_medium" />
+            <TextView
+                android:id="@+id/site"
+                android:text="@string/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/roboto_mono" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/masalah"
+                app:fontFamily="@font/roboto_mono_medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titikdua"
+                app:fontFamily="@font/roboto_mono_medium" />
+            <TextView
+                android:id="@+id/keterangan"
+                android:text="@string/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/roboto_mono" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
